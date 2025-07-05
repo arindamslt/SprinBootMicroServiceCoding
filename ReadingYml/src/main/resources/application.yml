@@ -1,0 +1,5 @@
+myapp:
+ pid: P1
+ pname: TV
+ pqty: 5
+ price: 25000.00

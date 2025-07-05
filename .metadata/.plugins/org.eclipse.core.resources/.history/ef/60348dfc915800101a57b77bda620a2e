@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: API-GateWay
+server:
+  port: 3333
