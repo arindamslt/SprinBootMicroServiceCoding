@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1
+    username: root
+    password: arindam
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: product-service
+  cache:
+    type: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+server:
+  port: 1002
